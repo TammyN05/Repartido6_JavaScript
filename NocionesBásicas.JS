@@ -8,6 +8,7 @@ resultado = (x + y);{
 }*/
     
 
+
 // 2 - Adición  y multiplicación:
 
 /*var x = parseInt(prompt ("Ingrese un número"));
@@ -17,6 +18,8 @@ resultadoSuma = (x + y);
 resultadoMulti = (x * y);{
     alert (resultadoSuma + "\n" + resultadoMulti)
 }*/
+
+
 
 // 3 - Promedio
 
@@ -29,6 +32,9 @@ var v5 = prompt("Ingrese el quinto valor")
 var promedio = (parseFloat(v1) + parseFloat(v2) + parseFloat(v3) +parseFloat(v4) +parseFloat(v5) /5);
 alert ("Su promedio es " + promedio);*/
     
+
+
+
 // 4 - Perímetro
 
 /*var base = prompt("Ingrese el primer valor")
@@ -36,6 +42,8 @@ var altura = prompt("Ingrese el segundo valor")
 
 var Perímetro = (2 * base) + (2 * altura);
 alert ("El perimetro es " +Perímetro)*/
+
+
 
 // 5 - Área
 

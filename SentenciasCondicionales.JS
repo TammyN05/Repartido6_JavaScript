@@ -12,6 +12,9 @@ if (valorAbsoluto > 0){
     document.write ("NaN");
 }*/
 
+
+
+
 // 2 - El mayor
 
 /*var x = prompt("Ingrese el primer numero");
@@ -24,25 +27,42 @@ if(y > x)
     alert("El numero mayor es : "+y);*/
 
 
+
+
+// 3 - Etapas de la vida
+
+/*var etapa = parseInt (prompt("Ingrese un número"));
+
+if (etapa > 0 && etapa < 2) {
+    alert("Estas en la etapa BEBÉ");
+} else if (etapa >= 3 && etapa <= 10) {
+    alert ("Estas en la etapa NIÑO/NIÑA");
+} else if (etapa >=11 && etapa <=14) {
+    alert ("Estas pasando por la PREADOLESCENCIA");
+} else if (etapa >=15 && etapa <20){
+    alert ("Eres un ADOLESCENTE")
+}  else if (etapa >=20 && etapa <=25){
+    alert ("Eres un JOVEN ADULTO")
+}  else if (etapa >25 && etapa <=60){
+    alert ("Eres un ADULTO")
+}  else if (etapa >60 && etapa <=75){
+    alert ("Eres un JUBILADO")
+}  else if (etapa >75){
+    alert ("Eres un ADULTO MAYOR")
+}*/ 
+
+
+
 // 4 - Socio del club
 
-var edad = parseInt(prompt("Ingresa tu edad"))
-var carneDeSocio = prompt("¿Tienes el carnet de socio al dia?")
+/*var edad = parseInt(prompt("Ingresa tu edad"));
+var carneDeSocio = prompt("¿Tienes el carnet de socio al dia?");
 
-if (edad > 25 && carneDeSocio == true){
+if (edad > 25 && carneDeSocio != true){
     alert("Puede votar");
 }else{
     alert ("No puede votar");
-}
-
-
-
-
-
-
-
-
-
+}*/
 
 
 
