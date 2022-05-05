@@ -104,13 +104,69 @@ function Suma(x,y){
 Suma(n1, n2)*/
 
 
+/*let numero = prompt("Ingrese un numero")
+
+function mostrarNumero(){
+    if(numero > 10){
+        prompt("Ingrese un numero");
+        if (numero > 100){
+            alert ("Mostrar " + numero);
+        } else {
+            alert ("Mostrar " + (numero < 100));
+        }
+    } else {
+        prompt("Ingrese un numero");
+        } if (numero > 1000){
+        alert("Mostar " + numero);
+        } else {
+            alert ("Mostar " + (numero < 1000));
+    }
+    return(mostrarNumero);
+}
+
+mostrarNumero()*/
+
+/*Película Favorita I:
+ Crear un objeto con tu película favorita que tenga las propiedades: 
+ nombre de la película; año; director/a; actores principales (al menos 2); duración y género; 
+ Imprime los datos de la peli  en el html accediendo. */
+
+
+var series = [
+    {nombre: "Greys Anatomy", temporadas: 19, año: 2007, genero: "Drama"}
+]
+for(let i = 0; i < series.length; i++){
+    var serie = series[i];
+    document.write("<li>Nombre: " + serie.nombre + 
+    "<li>Temporadas: " + serie.temporadas + 
+    "<li>Año: " + serie.año + "<hr>")
+}
+
+/*Película Favorita II: 
+Al objeto de la actividad anterior agrega las propiedades País de origen; 
+idioma de origen y la condición si es apta para todo público (ATP). 
+Además agrega una función que muestre los datos del objeto. 
+Llama a esa función. Por último elimina la propiedad sobre el género usando delete.*/
 
 
 
+var series = [
+    {nombre: "Greys Anatomy", temporadas: 19, año: 2007, genero: "Drama"}
+]
 
+var series = [
+    series.pais = "EEUU"; 
+    series.idioma = "Inglés";
+]
 
-
-
+for (let i = 0; i < 18; i++){
+    var ATP = series[i];
+    document.write("<li>Nombre: " + serie.nombre + 
+    "<li>Temporadas: " + serie.temporadas + 
+    "<li>Año: " + serie.año + 
+    "<li>País: " + serie.pais + 
+    "<li>Idioma: " + serie.idioma)
+}
 
 
 
