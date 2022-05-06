@@ -1,3 +1,61 @@
+/* 1- Nombres famosos: Crear un array con los nombres de personajes famosos. 
+Mediante un prompt incluir nombres al array*/
+
+/*var famosos = ["LISA", "JENNIE", "JISOO", "ROSÉ"]
+var nuevosFamosos = prompt("Ingrese un nombre");
+famosos.push(nuevosFamosos);
+
+console.log(famosos);*/
+
+/*Revertir cadena: Escribe una función que ponga en reversa una cadena usando los métodos del array. 
+Recomendación: push, reverse, join, split (método de strings).*/
+
+
+
+/*function reverse(tam){
+    return tam.split("").reverse().join("");
+}
+
+var dudu = reverse("tamara")
+console.log(dudu)*/
+
+
+/*Ordenar palabra: Escribe una función que tome una palabra, 
+y devuelva una nueva con sus letras ordenadas alfabéticamente. 
+Debes usar los métodos de arrays.*/
+
+/*function reverse(tam){
+    return tam.split("").sort().join("");
+}
+
+var dudu = reverse("tamara")
+console.log(dudu)*/
+
+
+/* 4 - Números pares: Dado un array con números del 1  al 50, 
+utiliza el método filter para obtener los números pares. 
+Recuerda que no tienes que escribir tú mismo los 50 números…*/
+
+
+/*var lista = []
+for (let i = 0; i < 50; i++) {
+    lista.push(i+1)
+}
+
+function pares(n){
+
+    var filtro = n.filter (n => n % 2 === 0);
+    return filtro
+}
+console.log(pares(lista))*/
+
+
+/* 5 - Crear cadena: Dado un array con nombres, crear una única cadena separando los nombres con “.”*/
+
+/*var cadena = ["Lincon", "Octavia", "Clark", "Abigail"];
+var unir = cadena.join(".");*/
+
+
 //Obligatorios funciones
 
 // 6 - Números pares entre 0 y un máximo
@@ -126,13 +184,16 @@ function mostrarNumero(){
 
 mostrarNumero()*/
 
+//Obligatorios objetos
+
+
 /*Película Favorita I:
  Crear un objeto con tu película favorita que tenga las propiedades: 
  nombre de la película; año; director/a; actores principales (al menos 2); duración y género; 
  Imprime los datos de la peli  en el html accediendo. */
 
 
-var series = [
+/*var series = [
     {nombre: "Greys Anatomy", temporadas: 19, año: 2007, genero: "Drama"}
 ]
 for(let i = 0; i < series.length; i++){
@@ -140,7 +201,8 @@ for(let i = 0; i < series.length; i++){
     document.write("<li>Nombre: " + serie.nombre + 
     "<li>Temporadas: " + serie.temporadas + 
     "<li>Año: " + serie.año + "<hr>")
-}
+}*/
+
 
 /*Película Favorita II: 
 Al objeto de la actividad anterior agrega las propiedades País de origen; 
@@ -148,24 +210,21 @@ idioma de origen y la condición si es apta para todo público (ATP).
 Además agrega una función que muestre los datos del objeto. 
 Llama a esa función. Por último elimina la propiedad sobre el género usando delete.*/
 
-
-
 var series = [
     {nombre: "Greys Anatomy", temporadas: 19, año: 2007, genero: "Drama"}
 ]
 
-var series = [
-    series.pais = "EEUU"; 
-    series.idioma = "Inglés";
-]
+    series[0].pais = "EEUU"
+    series[0].idioma = "Inglés"
+
 
 for (let i = 0; i < 18; i++){
     var ATP = series[i];
-    document.write("<li>Nombre: " + serie.nombre + 
-    "<li>Temporadas: " + serie.temporadas + 
-    "<li>Año: " + serie.año + 
-    "<li>País: " + serie.pais + 
-    "<li>Idioma: " + serie.idioma)
+    document.write("<li>Nombre: " + series[0].nombre + 
+    "<li>Temporadas: " + series[1].temporadas +
+    "<li>Año: " + series[2].año + 
+    "<li>País: " + series[3].pais + 
+    "<li>Idioma: " + series[4].idioma);
 }
 
 
