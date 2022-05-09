@@ -1,1 +1,3 @@
-# Repartido6_JavaScript
+# Repartido6_y_7_JavaScript
+
+Esta en proceso.

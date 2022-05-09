@@ -52,3 +52,17 @@ var altura = prompt("Ingrese el segundo valor")
 
 var Area = (base * altura) / 2
 alert ("El area es " +Area)*/
+
+
+/* 10 - Contraseña: Pediremos al usuario ingresar usuario y contraseña para ingresar a nuestro sistema. 
+Definiremos una contraseña preestablecida. 
+Mostrar mensaje con la explicación de si ha ingresado correctamente la contraseña o no.*/
+
+/*var usuario = prompt("Ingrese el usuario")
+var contraseña = prompt("Ingrese la contraseña")
+
+if (contraseña == "provi"){
+    alert("Welcome");
+} else {
+    alert ("OW NO OW NO OW NONOO");
+}*/
