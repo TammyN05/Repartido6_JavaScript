@@ -187,7 +187,7 @@ mostrarNumero()*/
 //Obligatorios objetos
 
 
-/*Película Favorita I:
+/* 1 - Película Favorita I:
  Crear un objeto con tu película favorita que tenga las propiedades: 
  nombre de la película; año; director/a; actores principales (al menos 2); duración y género; 
  Imprime los datos de la peli  en el html accediendo. */
@@ -204,13 +204,13 @@ for(let i = 0; i < series.length; i++){
 }*/
 
 
-/*Película Favorita II: 
+/* 2 - Película Favorita II: 
 Al objeto de la actividad anterior agrega las propiedades País de origen; 
 idioma de origen y la condición si es apta para todo público (ATP). 
 Además agrega una función que muestre los datos del objeto. 
 Llama a esa función. Por último elimina la propiedad sobre el género usando delete.*/
 
-var series = [
+/*var series = [
     {nombre: "Greys Anatomy", temporadas: 19, año: 2007, genero: "Drama"}
 ]
 
@@ -223,12 +223,58 @@ for (let i = 0; i < 18; i++){
     document.write("<li>Nombre: " + series[0].nombre + 
     "<li>Temporadas: " + series[1].temporadas +
     "<li>Año: " + series[2].año + 
-    "<li>País: " + series[3].pais + 
-    "<li>Idioma: " + series[4].idioma);
+    "<li>Género: " + series[3].genero);
+    "<li>País: " + series[4].pais + 
+    "<li>Idioma: " + series[5].idioma);
+
+    delete series.genero;
+
+}*/
+
+/*4 - En qué mes estamos?: 
+A través de un prompt ingresar el número de un mes e imprimir el nombre del mes correspondiente (deberás usar arrays).*/
+
+/*let mes = parseInt (prompt("Ingrese un numero mayor o igual 1:"))
+let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+
+if (mes <= 12 && mes >= 1){
+    alert(meses[mes - 1]);
+}
+else if (mes > 12){
+    mes = mes % 12;
+    alert(meses[mes - 1]);
 }
 
+console.log(mes, meses);*/
+
+/* 5 -Estudiantes de Matea: Crear un array de objetos que contenga al menos 5 estudiantes del grupo. Cada estudiante debe poseer 
+las propiedades de: nombre; edad; género musical; mascotas;  
+y un objeto “gustos” que contenga al menos dos propiedades 
+(el objeto gustos debe estar dentro del objeto principal). Se deberá imprimir los datos de cada alumno.*/
+
+/*var estudiantes = [
+    {Nombre:"Valentin", Edad: 17 , Musica: "K-pop", Mascotas: 0, gustos: {deporte: "Bailar", helado: "Menta granizada"}, Curso:"Matea" },
+    {Nombre:"Pablo", Edad: 21 , Musica: "Lofi-Chill", Mascotas: 3, gustos: {deporte: "Ping-pong", helado: "Limón"}, Curso:"JAP" },
+    {Nombre:"Gabriel", Edad: 25 , Musica: "Rock Nacional", Mascotas: 1, gustos: {deporte: "Volley", helado: "Chocolate"}, Curso:"StandUp" },
+    {Nombre:"Nahuel", Edad: 19 , Musica: "Rock", Mascotas: 1, gustos: {deporte: "Basket", helado: "Frutilla"}, Curso:"Robotica" },
+    {Nombre:"Franco",Edad: 23 , Musica: "Pop", Mascotas: 3, gustos: {deporte: "Hand ball", helado: "Vainilla"}, Curso:"Medicina" }
+]
+
+for (let i = 0; i < estudiantes.length; i++) {
+    for (atributo in estudiantes[i]) {
+        if (atributo == "gustos") continue
+        document.write("<li>" + atributo + ': ' + estudiantes[i][atributo] + '</li>')
+    }
+    document.write("<li>" + "Gustos: " + estudiantes[i].gustos.deporte + ", " + estudiantes[i].gustos.helado + "</li>" +"<br>" )
+}*/
 
 
 
+/* 6 - Comentarios: Deberás  imprimir en el html los  comentarios de los usuarios que son ingresados a través de un prompt. 
+Deberán aparecer al menos 5 comentarios. Cada comentario deberá ser impreso junto con la fecha del día de la creación.*/
 
 
+
+/* 7 - Películas favoritas III: Escribir un array de objetos de al menos 5
+películas que contenga como propiedades las pedidas en el ejercicio películas favoritas I. 
+Imprimir los datos de la película en el html. Ordenar las películas alfabéticamente. previamente a la impresión.*/
